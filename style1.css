@@ -1,0 +1,103 @@
+
+nav {
+    background-color: rgb(255, 255, 255);
+    color: rgb(9, 4, 4);
+   text-align: center;
+    position:sticky;
+    width: 100%; 
+    top: 0px;
+    transition: top 0.3s;
+    padding: 10px;
+    word-spacing: 150px;
+    
+}
+nav .log {
+    text-align: right;
+    text-decoration: none;
+   
+}
+ body {
+     background-image:url('images/v60.PNG');
+     background-size:20% auto;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center center; 
+ }
+ .text-center {
+    text-align: center;
+ }
+ .text-white {
+	color: #FFFFFF;
+}
+.one-third-width-column {
+    width: 33.33%;
+    display: inline-block;
+}
+h2 {
+    text-align: center;
+    padding:40px;
+}
+p {
+    text-align: right;
+    word-wrap: break-word;
+}
+.box {
+	border-radius: 50px;
+	width: 100%;
+	margin: 0%;
+	background-color: rgb(0, 0, 0);
+    position: relative;
+    right: 60%;
+    top: -10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    height: 130px;
+   
+}
+.box1 {
+	border-radius: 50px;
+	width: 100%;
+	margin: 0%;
+	background-color: rgba(194, 181, 2, 0.638);
+    position: relative;
+    right: 60%;
+    top: -10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    height: 130px;
+   
+}
+.box2 {
+	border-radius: 50px;
+	width: 100%;
+	margin: 0%;
+	background-color: rgb(0, 0, 0);
+    position: relative;
+    right: 60%;
+    top: -10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    height: 130px;
+   
+}
+ol {
+    text-align:center;
+    
+}
+li {
+    text-align: center;
+}
+.container {
+    max-width: 300px; /* Adjust the maximum width as needed */
+    overflow-x: auto;
+    overflow-y:scroll; /* Add horizontal scrollbar when text overflows */
+    border: 10px solid #ccc; /* Optional: Add a border for better visibility */
+    padding: 10px; /* Optional: Add some padding for spacing */
+    float:right;
+  }
+  p {
+    /* Optional: Add styles to your text */
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0;
+  }
